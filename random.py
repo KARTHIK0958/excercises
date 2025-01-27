@@ -6,6 +6,7 @@ if ln not in range(1,10):
     print("Enter the lucky number between 1 to 10 :")
 while True:
     random_number=rand()
+    print("Generated number :",random_number)
     if ln==random_number:
         print("Generated random number ",random_number," is equal to the lucky number ",ln)
         break;
